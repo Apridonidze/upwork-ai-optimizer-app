@@ -15,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" >
+      {/* add sidebar */}
+      {/* add topbar in the dashboard routes */}
       <body>{children}</body>
+      {/* add footer */}
     </html>
   );
 }
