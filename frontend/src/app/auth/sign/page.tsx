@@ -1,16 +1,23 @@
+import axios from "axios";
+
 export const metadata = {
     title : 'ProporsalAI - Sign Up'
 };
 
+// add detailed metadata
+
 export default function Sign() {
 
-    const SubmitData = () => {
+    async function SubmitData(){
         try{
+            
+
             
         }catch(err){
 
         };
     };
+
 
     return(
         <div className="auth-container">
